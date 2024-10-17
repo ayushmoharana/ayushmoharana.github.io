@@ -12,10 +12,10 @@
   url: https://academic.oup.com/mnras
   color: "#bc7ef2"
 
-"A&A":
+"AnA":
   url: https://www.aanda.org/
   color: "#1e0ce8"
 
-"A&A Letters":
+"AnALetters":
   url: https://www.aanda.org/articles/aa/full_html/2017/11/aa32279-17/aa32279-17.html
   color: "#19b6e6"
