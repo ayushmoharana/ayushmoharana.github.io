@@ -1,33 +1,17 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Our latest paper on spectroscopy of compact triples is out.
+date: 2024-06-29 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+A new work focusing on spectroscopy of new compact triple systems is finally out in [Astronomy and Astrophysics](https://www.aanda.org/articles/aa/full_html/2024/10/aa50797-24/aa50797-24.html).
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+We have estimated the masses, radii, temperatures, metallicities, and ages of 12 stars in four CHTs. Some interesting results include the CHT CD-32 6459 which shows signs of von Zeipel-Lidov-Kozai oscillations, while the system CD-62 1257 is a candidate to form a triple common envelope. 
 
-#### Hipster list
+One of the interesting part of the paper is where we combined observations of masses, outer eccentricities (e2), orbital periods, and age estimates of the systems from the literature. We then compared the distributions of e2, and the tertiary mass ratio, q3 = M3/(M1 + M2), for three different metallicity ranges and two age ranges.  We find that the q3 distribution for CHTs with sub-solar metallicity has a uniform distribution but the systems with solar and above-solar metallicity peak between 0.5 and 1. When dividing them according to their ages, we find the q3 of old systems to be around 0.5. The eccentricity, e2, favours a value of around 0.3 irrespective of metallicity or age.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+This shows that compact triples are formed like close binaries but some of the distributions of orbital parameters are affected by dynamic mechanism which we are yet to identify.
