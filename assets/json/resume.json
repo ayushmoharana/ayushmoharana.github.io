@@ -65,7 +65,7 @@
   "awards": [
     {
       "title": "NCAC Young researcher of the year",
-      "year": "2023",
+      "year": "2023-12-16",
       "awarder": "Nicolaus Copernicus Astronomical Center",
       "summary": "Awarded for the multidimensional research on triple star systems, specifically for the integration of theoretical studies with observations "
     }
@@ -73,7 +73,7 @@
   "skills": [
     {
       "name": "Eclipsing binary modelling",
-      "icon": "fa-solid fa-quinscape",
+      "icon": "fa-solid fa-codiepie",
       "keywords": [
         "JKTEBOP",
         "PHOEBE2",
@@ -113,7 +113,7 @@
       "icon": ""
     }
   ],
-  "other interests": [
+  "interests": [
     {
       "name": "Football",
       "icon": "fa-solid fa-soccer-ball-o",
