@@ -70,6 +70,18 @@
       "summary": "Awarded for the multidimensional research on triple star systems, specifically for the integration of theoretical studies with observations "
     }
   ],
+  "observing": [
+    {
+      "title": "SALT Long term monitoring",
+      "year": "2024-2026",
+      "summary": "Time-series spectroscopy of compact triples with HRS"
+    },
+    {
+      "title": "CTI0: purchased time",
+      "year": "2023-Present",
+      "summary": "Time-series spectroscopy of eclipsing binary with CHIRON."
+    }
+  ],
   "skills": [
     {
       "name": "Eclipsing binary modelling",

@@ -247,6 +247,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - profiles.md
+  - blog.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -641,6 +643,7 @@ jsonresume:
   - projects
   - volunteer
   - awards
+  - observing
   - certificates
   - skills
   - languages
