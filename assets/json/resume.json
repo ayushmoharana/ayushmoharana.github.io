@@ -28,7 +28,7 @@
       "startDate": "2024-08-13",
       "endDate": "present",
       "summary": "Working with Dr. John Southworth on pulsating binary systems.",
-      "highlights": ["Asteroseismology"]
+      "highlights": ["Asteroseismology","Eclipsing Binaries"]
     },
     {
       "name": "National Institute of Technology, Rourkela",
@@ -36,7 +36,15 @@
       "startDate": "2019-07-01",
       "endDate": "20-10-30",
       "summary": "Working with Dr. AC Pradhan on UV photometry to constrain the Milky Way structure.",
-      "highlights": ["UV star counts"]
+      "highlights": ["UV photometry","Globular Clusters"]
+    },
+    {
+      "name": "Manipal Centre for Natural Science, Manipal",
+      "position": "Research Intern",
+      "startDate": "2017-06-10",
+      "endDate": "2017-08-30",
+      "summary": "Working with Dr. D Bhattacharya on constraining blazar jet properties using inverse modelling of SED.",
+      "highlights": ["Active Galactic Nuclei"]
     }
   ],
   "education": [
@@ -70,22 +78,44 @@
       "summary": "Awarded for the multidimensional research on triple star systems, specifically for the integration of theoretical studies with observations "
     }
   ],
+  "grants and fellowships": [
+    {
+      "institution": "National Science Center, Poland",
+      "location": "Torun, Poland",
+      "url": "https://projekty.ncn.gov.pl/en/index.php?projekt_id=515918",
+      "startDate": "2021-01-01",
+      "endDate": "Present",
+      "Description": "A 3 year grant of 203,096 PLN for the project 'Evolution of tight triple stars'."
+    },
+    {
+      "institution": "Indian Space Research Organisation",
+      "location": "Odisha, India",
+      "startDate": "2019-08-01",
+      "endDate": "2019-11-01",
+      "Description": "1 year fellowship to work on the project 'Constraining Milky Way structure using UV star counts'."
+    }
+  ],
   "observing": [
     {
-      "title": "SALT Long term monitoring",
+      "title": "SALT Long term monitoring: 4 semesters (PI)",
       "year": "2024-2026",
       "summary": "Time-series spectroscopy of compact triples with HRS"
     },
     {
-      "title": "CTI0: purchased time",
+      "title": "CTIO: 60 hrs of spectroscopic time (PI)",
       "year": "2023-Present",
-      "summary": "Time-series spectroscopy of eclipsing binary with CHIRON."
+      "summary": "Time-series spectroscopy of eclipsing binaries with CHIRON."
+    },
+    {
+      "title": "SALT Long term monitoring: 4 semesters (PI)",
+      "year": "2022-2024",
+      "summary": "Time-series spectroscopy of compact triples with HRS"
     }
   ],
   "skills": [
     {
       "name": "Eclipsing binary modelling",
-      "icon": "fa-solid fa-codiepie",
+      "icon": "fa-quinscape",
       "keywords": [
         "JKTEBOP",
         "PHOEBE2",
@@ -128,7 +158,7 @@
   "interests": [
     {
       "name": "Football",
-      "icon": "fa-solid fa-soccer-ball-o",
+      "icon": "fa-solid fa-soccer-ball",
       "keywords": [
         "- Captain, NITR-VS Hall, Inter-hall football team",
         "- Team member, DAV CSPur, District Championships "
