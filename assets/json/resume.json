@@ -52,21 +52,19 @@
       "institution": "Nicolaus Copernicus Astronomical Center",
       "location": "Torun, Poland",
       "url": "https://www.camk.edu.pl/en/",
-      "area": "Astrophysics",
-      "studyType": "PhD",
+      "area": "Dissertation: Comprehensive study of low-mass Compact Hierarchical Triples using Eclipsing Binaries",
+      "studyType": "Ph.D., Astrophysics",
       "startDate": "2019-12-02",
-      "endDate": "2024-09-27",
-      "summary": "Dissertation: Comprehensive study of low-mass Compact Hierarchical Triples using Eclipsing Binaries"
+      "endDate": "2024-09-27"
     },
     {
       "institution": "National Institute of Technology, Rourkela",
       "location": "Odisha, India",
       "url": "https://www.nitrkl.ac.in/",
-      "area": "Physics and Astronomy",
-      "studyType": "Integrated MSc",
+      "area": "Dissertation: Ultraviolet Studies of Galactic Globular Clusters using Observations from Ultraviolet Imaging Telescope",
+      "studyType": "Integrated M.Sc., Physics and Astronomy",
       "startDate": "2014-08-01",
       "endDate": "2019-06-05",
-      "summary": "Dissertation: Ultraviolet Studies of Galactic Globular Clusters using Observations from Ultraviolet Imaging Telescope",
       "score": "8.08"
     }
   ],
@@ -115,7 +113,7 @@
   "skills": [
     {
       "name": "Eclipsing binary modelling",
-      "icon": "fa-quinscape",
+      "icon": "fab fa-quinscape",
       "keywords": [
         "JKTEBOP",
         "PHOEBE2",
