@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ayush Moharana",
-    "label": "Reseacrh Associate",
+    "label": "Research Associate",
     "image": "",
     "email": "a.moharana@keele.ac.uk",
     "about": "Astronomer interested in the study of multiple star systems. Escpecially if it has an eclipsing component.",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Manipal Centre for Natural Science, Manipal",
-      "position": "Research Intern",
+      "position": "Research intern",
       "startDate": "2017-06-10",
       "endDate": "2017-08-30",
       "summary": "Working with Dr. D Bhattacharya on constraining blazar jet properties using inverse modelling of SED.",
@@ -78,7 +78,7 @@
   ],
   "grants and fellowships": [
     {
-      "title": "PRELUDIUM Research Grant, National Science Center, Poland",
+      "position": "PRELUDIUM Research Grant, National Science Center, Poland",
       "location": "Torun, Poland",
       "url": "https://projekty.ncn.gov.pl/en/index.php?projekt_id=515918",
       "startDate": "2021-01-01",
@@ -86,7 +86,7 @@
       "summary": "A 3 year grant of 203,096 PLN for the project 'Evolution of tight triple stars'."
     },
     {
-      "title": "Project Fellow, Indian Space Research Organisation",
+      "position": "Project Fellow, Indian Space Research Organisation",
       "location": "Odisha, India",
       "startDate": "2019-08-01",
       "endDate": "2019-11-01",
@@ -96,17 +96,17 @@
   "observing": [
     {
       "title": "SALT Long term monitoring: 4 semesters (PI)",
-      "year": "2024-2026",
+      "awarder": "2024-2026",
       "summary": "Time-series spectroscopy of compact triples with HRS"
     },
     {
       "title": "CTIO: 60 hrs of spectroscopic time (PI)",
-      "year": "2023-Present",
+      "awarder": "2023-Present",
       "summary": "Time-series spectroscopy of eclipsing binaries with CHIRON."
     },
     {
       "title": "SALT Long term monitoring: 4 semesters (PI)",
-      "year": "2022-2024",
+      "awarder": "2022-2024",
       "summary": "Time-series spectroscopy of compact triples with HRS"
     }
   ],
