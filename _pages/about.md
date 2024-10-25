@@ -7,7 +7,7 @@ subtitle: <a href='#'>Research Associate</a>. Keele University.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Lennard-Jones: 2.01</p>
     <p>School of Chemical and Physical Sciences</p>
