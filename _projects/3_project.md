@@ -10,10 +10,19 @@ category: science
 Globular clusters (GCs) are gravitaionally bound systems of hundreds of stars. These systems are good laboratories to study stellar evolution as the stars are "believed" to be of the same chemical composition and age. In our work, we use observations from the ultraviolet photometric instrument [UVIT](https://uvit.iiap.res.in/)  on-board the [ASTR0SAT](https://astrosat.iucaa.in/) to study evolved (post-red-giant) stars. 
 
 
-UVIT, and its UV sensitivity makes it a useful instrument to study evolved stars. It somewhat segregates the UV bright stars, usually evolved stars in old systems like the GCs.
+UVIT, and its UV sensitivity makes it a useful instrument to study evolved stars. It somewhat segregates the UV bright stars, usually evolved stars in old systems like the GCs. Furhter, the resolution of UVIT is better than other contemporary UV-photometric missions.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_gc/uvit.png"  class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Comparision of resolution of UVIT (left) and GALEX (right).
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/project_gc/7492cmd.png"  class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
