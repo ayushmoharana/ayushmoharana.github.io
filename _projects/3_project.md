@@ -2,7 +2,7 @@
 layout: page
 title: Evolved stars in globular clusters
 description: Photometric and spectroscopic study of stellar evolution in galactic globular clusters.
-img: assets/img/project_gc/globular_cluster.jpg
+img: assets/img/globular_cluster.jpg
 importance: 3
 category: science
 related_publications: true
