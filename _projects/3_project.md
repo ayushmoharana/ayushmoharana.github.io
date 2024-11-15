@@ -2,15 +2,16 @@
 layout: page
 title: Evolved stars in globular clusters
 description: Photometric and spectroscopic study of stellar evolution in galactic globular clusters.
-img: assets/img/project_gc/uvitres.png
+img: assets/img/project_gc/globular_cluster.jpg
 importance: 3
 category: science
+related_publications: true
 ---
 
 Globular clusters (GCs) are gravitaionally bound systems of hundreds of stars. These systems are good laboratories to study stellar evolution as the stars are "believed" to be of the same chemical composition and age. In our work, we use observations from the ultraviolet photometric instrument [UVIT](https://uvit.iiap.res.in/)  on-board the [ASTR0SAT](https://astrosat.iucaa.in/) to study evolved (post-red-giant) stars. 
 
 
-UVIT, and its UV sensitivity makes it a useful instrument to study evolved stars. It somewhat segregates the UV bright stars, usually evolved stars in old systems like the GCs. Furhter, the resolution of UVIT is better than other contemporary UV-photometric missions.
+UVIT, and its UV sensitivity makes it a useful instrument to study evolved stars. It somewhat segregates the UV bright stars, usually evolved stars in old systems like the GCs. Further, the resolution of UVIT is better than other contemporary UV-photometric missions.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -34,7 +35,7 @@ UVIT, and its UV sensitivity makes it a useful instrument to study evolved stars
 </div>
 
 
-We also follow-up interesting targets with spectroscopy (opitcal currently) to measure abundances, and radial velocities. This is to constrain any peculiar evolutionary characteristics or check the nature of their multiplicity, if any.
+We also follow-up interesting targets {% cite 2024A&A...685L...6K %}. with spectroscopy (optical currently) to measure abundances, and radial velocities. This is to constrain any peculiar evolutionary characteristics or check the nature of their multiplicity, if any.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

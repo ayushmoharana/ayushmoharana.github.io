@@ -2,7 +2,7 @@
 layout: page
 title: The SWIPE Project
 description: Stars With Pulsations and Eclipses
-img: assets/img/Pulsating_star.gif
+img: assets/img/Pulsating_star_crp.gif
 redirect: https://www.astro.keele.ac.uk/jkt/swipe/
 importance: 1
 category: science

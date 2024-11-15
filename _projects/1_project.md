@@ -1,18 +1,17 @@
 ---
 layout: page
 title: Compact Hierarchical Triples
-description: Triple stars that can fit into our Solar system.
+description: Triple stars that can fit into our Solar system
 img: assets/img/CHT_header.jpg
+redirect: https://ayushmoharana24.wixsite.com/mysite/cht
 importance: 2
 category: science
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Compact Hierarchical Triples (CHT) are systems with the tertiary star orbiting the inner binary in an orbit shorter than 1000 days. This makes the dynamical effects to be distinct and the changes to be visible over few years.  A complete characterization of such systems can help us understand the physics in these systems but very few systems have such an analysis.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This work is funded by the National Science Center, Poland with the grant no. [2021/41/N/ST9/02746](https://projekty.ncn.gov.pl/en/index.php?projekt_id=515918).
 
     ---
     layout: page

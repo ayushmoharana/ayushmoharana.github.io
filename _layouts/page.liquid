@@ -12,14 +12,14 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}
         {% if page.nasa_ads %}
-          <a
+          <i
             href=https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=-docs(f426d6c8826a534b67946fdf9a869f36)%20%20author%3A%22Moharana%2C%20A.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
             >
-            <img src="assets/img/ads_logo_full_light_background.svg" alt="Link to NASA ADS"
-          ></a>
+            <img src="assets/img/ads_logo_full_light_background.svg" alt="NASA ADS"
+          ></i>
         {% endif %}
     </h1>
     <p class="post-description">{{ page.description }}</p>
