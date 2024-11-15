@@ -9,9 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Lennard-Jones: 2.01</p>
+    <p>Room no. 2.01 </p>
+    <p>Lennard-Jones Building</p>
     <p>School of Chemical and Physical Sciences</p>
-    <p>Keele University, Newcastle-under-Lyme, UK</p>
+    <p>Keele University </p>
+    <p>Newcastle-under-Lyme, UK</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
