@@ -1,37 +1,49 @@
 ---
 layout: post
-title: a post with formatting and links
-date: 2015-03-15 16:40:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+title: 
+date: 2024-05-15 16:30:16
+description: Practical insights into spectral disentangling
+tags: spectral disentangling
+categories: analysis
 featured: true
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+A crucial step in our parameter extraction of binary and triple stars was spectral disentangling and/or spectral separation. 
+A detailed discussion of the methodology can be found in a review by Hadrava,2008<d-footnote>https://arxiv.org/abs/0909.0172</d-footnote>.
 
-#### Hipster list
+In our work, used
+two codes, <p id="small-caps">fd3</p><d-footnote>http://sail.zpf.fer.hr/fdbinary/</d-footnote>
+and <p id="small-caps">disentangling_shift_and_add</p><d-footnote>https://github.com/TomerShenar/Disentangling_Shift_And_Add</d-footnote> to disentangle spectra with resolution between 28000 to 67000. We also showed that it is possible to extract spectra with small
+sample spectra. Some of the important considerations that we learnt from our work are
+listed below:
 
-- brunch
-- fixie
-- raybans
-- messenger bag
+#### 
 
-#### Check List
-
-- [x] Brush Teeth
-- [ ] Put on socks
-  - [x] Put on left sock
-  - [ ] Put on right sock
-- [x] Go to school
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+- Stability of spectrograph and reduction method is important. With low-mass CHTs,
+we sometimes work with a tertiary light fraction of ∼ 0.1 or lower. In such cases,
+small biases in measurements are propagated and also amplified through the disentangling
+method<d-footnote>https://ui.adsabs.harvard.edu/abs/2008A%26A...482.1031H/abstract</d-footnote>. Such biases can be prominent in echelle
+spectra where order-wise disentangling can be used to avoid biases due to complex
+reduction methods like blaze correction. 
 
 <hr>
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+> In our work, we found FEROS and HARPS spectra to be stable. These are the best spectra to be used for disentnagling.
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+- Post-processing is helpful in cases of low spectra. While with a clean set of spectra,
+we can get clean disentangled spectra, most of the time we have to reject few
+available observations due to superimposed spectral lines, low SNR, emission lines
+etc. In this case, post-processing of disentangled spectra is needed. While the
+cleaning of the bias can be done by simply subtracting the bias signal, it is the
+modelling of the signal which can be tricky.
+
+- Disentangle in super-imposed segments. A good practice is to break the spectra
+into segments where the end of two segments superimpose with 2-3 common lines.
+This is a good way to compare line depths for bias cleaning and the convergence of
+the disentangling routine.
+
+
+
+
+
