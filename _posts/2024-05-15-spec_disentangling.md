@@ -17,7 +17,6 @@ and <p id="small-caps">disentangling_shift_and_add</p> <d-footnote>https://githu
 sample spectra. Some of the important considerations that we learnt from our work are
 listed below:
 
-#### 
 
 - Stability of spectrograph and reduction method is important. With low-mass CHTs,
 we sometimes work with a tertiary light fraction of ∼ 0.1 or lower. In such cases,
