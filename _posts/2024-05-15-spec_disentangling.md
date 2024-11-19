@@ -3,7 +3,7 @@ layout: post
 title: Entangled in disentangling
 date: 2024-05-15 16:30:16
 description: Practical insights into spectral disentangling
-tags: spectroscopy
+tags: spectroscopy disentangling
 categories: analysis
 featured: true
 ---
