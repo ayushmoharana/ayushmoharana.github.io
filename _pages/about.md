@@ -26,4 +26,5 @@ I grew up in Odisha where I graduated  in Physics from the [National Institute o
 
 I did my PhD at the [Nicolaus Copernicus Astronomical Center](https://www.camk.edu.pl/en/) of the Polish Academy of Sciences. I worked on physics of triple stars using eclipsing binaries for my PhD dissertation. During this time I also developed the photometric pipeline for the Solaris network of robotic telescopes. 
 
+I am a trained painter and a autodidactic graphic designer. In my free time, I try working on projects varying across different media and styles. 
 
