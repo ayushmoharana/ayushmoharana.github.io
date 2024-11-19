@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Entangled in disentangling
 date: 2024-05-15 16:30:16
 description: Practical insights into spectral disentangling
 tags: spectral disentangling
