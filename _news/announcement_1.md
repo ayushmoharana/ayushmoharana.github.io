@@ -1,9 +1,11 @@
 ---
 layout: post
-date: 2025-05-21 15:59:00-0400
+date: 2025-11-23 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-[PhD](https://www.camk.edu.pl/en/archiwum/2025/05/07/supplementary-recruitment-20252026/) and [post-doc](https://ce0639li.webitrent.com/ce0639li_webrecruitment/wrd/run/etrec179gf.open?WVID=456405QUWR&LANG=USA&VACANCY_ID=842707Wyjn
-) postions in eclipsing binary research.
+Get involved in the PLATO mission by joining the [PLATO Multiple Star Working Group](https://www.astro.keele.ac.uk/jkt/plato/index.html).
+
+---
+
