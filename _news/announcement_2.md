@@ -7,7 +7,6 @@ related_posts: false
 ---
 
 Submit abstracts for the binary stars session as National Astronomy Meeting 2026 at Birmingham.
-[https://tinyurl.com/binarystarsnam26](https://tinyurl.com/binarystarsnam26)
 
 ---
 Dear Colleagues,
