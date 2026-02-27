@@ -2,7 +2,7 @@
 layout: post
 date: 2026-02-27 15:59:00-0400
 title: Submit abstracts for the binary stars session as National Astronomy Meeting 2026 at Birmingham.
-inline: true
+inline: false
 related_posts: false
 ---
 
