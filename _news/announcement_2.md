@@ -10,6 +10,11 @@ Submit abstracts for the binary stars session as National Astronomy Meeting 2026
 [https://tinyurl.com/binarystarsnam26](https://tinyurl.com/binarystarsnam26)
 
 ---
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/assets/NAM-BinariesPoster.png"  class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Dear Colleagues,
 
