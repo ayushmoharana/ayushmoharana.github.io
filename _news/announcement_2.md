@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2026-02-27 15:59:00-0400
 title: Submit abstracts for the binary stars session as National Astronomy Meeting 2026 at Birmingham.
+date: 2026-02-27 15:59:00-0400
 inline: false
 related_posts: false
 ---
@@ -10,12 +10,6 @@ Submit abstracts for the binary stars session as National Astronomy Meeting 2026
 [https://tinyurl.com/binarystarsnam26](https://tinyurl.com/binarystarsnam26)
 
 ---
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/assets/NAM-BinariesPoster.png"  class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 Dear Colleagues,
 
 We are pleased to announce the call for abstracts for the 'Binary Stars: Current Development and Preparing for Future Missions' session at the National Astronomy Meeting this year, hosted at the University of Birmingham from the 20th to the 24th of July.
@@ -44,5 +38,11 @@ Jan Henneco, Newcastle University
 Koushik Sen, University of Arizona
 Axel Hahlin, Keele University
 Rhys Seeburger, Liverpool John Moores University
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/assets/NAM-BinariesPoster.png"  class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ---
