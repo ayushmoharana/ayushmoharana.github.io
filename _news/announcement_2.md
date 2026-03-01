@@ -30,13 +30,13 @@ Kind Regards,
 
 The Binary Stars Session Committee
 
-Ayush Moharana, Keele University
-Jenni French, University of Birmingham
-Yasmin Davis, University of Birmingham
-Jan Henneco, Newcastle University
-Koushik Sen, University of Arizona
-Axel Hahlin, Keele University
-Rhys Seeburger, Liverpool John Moores University
+- Ayush Moharana, Keele University
+- Jenni French, University of Birmingham
+- Yasmin Davis, University of Birmingham
+- Jan Henneco, Newcastle University
+- Koushik Sen, University of Arizona
+- Axel Hahlin, Keele University
+- Rhys Seeburger, Liverpool John Moores University
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
