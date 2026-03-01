@@ -24,7 +24,7 @@ Abstracts can be submitted until 23:45 on Thursday, 2nd April, using the link be
 
 If you have any questions, please contact a.moharana@keele.ac.uk
 
-We look forward to seeing your contributions
+We look forward to seeing your contributions.
 
 Kind Regards,
 
@@ -44,4 +44,3 @@ Rhys Seeburger, Liverpool John Moores University
     </div>
 </div>
 
----

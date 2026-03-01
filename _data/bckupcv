@@ -1,0 +1,123 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Ayush Moharana
+    - name: Date of Birth
+      value: 24th November 1994
+    - name: Languages
+      value: English, Odia, Hindi
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: Nicolaus Copernicus Astronomical Center, Torun, Poland
+      year: 2024
+      description:
+        - Dissertation - Comprehensive study of low-mass Compact Hierarchical Triples using Eclipsing Binaries
+        - Supervisor - Dr. hab. K.G. Hełminiak
+    - title: Integrated M.Sc., Physics and Astronomy
+      institution: National Institute of Technology, Rourkela, Odisha, India
+      year: 2019
+      description:
+        - Dissertation - Ultraviolet Studies of Galactic Globular Clusters using Observations from Ultraviolet Imaging Telescope
+        - Supervisor - Dr A.C. Pradhan
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research associate in pulsating binary stars
+      institution: Keele University, Staffordshire, UK
+      year: 2024 - Present
+      description:
+        - Working on the SWIPE project (PI - Dr. J. Southworth)
+
+    - title: Research assistant
+      institution: National Institute of Technology, Rourkela, Odisha, India
+      year: 2019
+      description:
+        - Working on UV photometry to constrain the Milky Way structure (PI - Dr. A.C. Pradhan)
+
+    - title: Research Intern
+      institution: Manipal Centre for Natural Science, Manipal, Karnataka, India
+      year: 2017
+
+
+- title: Grants and Fellowships
+  type: time_table
+  contents:
+    - title: PRELUDIUM Research Grant, National Science Center, Poland
+      year: 2021
+      description: A 3 year grant of 203,096 PLN for the project 'Evolution of tight triple stars'.
+
+    - title: Project Fellowships, Indian Space Research Organisation
+      year: 2019
+      description: 1 year fellowship to work on the project 'Constraining Milky Way structure using UV star counts'.
+
+- title: Observing experience
+  type: time_table
+  contents:
+    - title: Danish 1.54m, La Silla, Chile
+      year: 2025
+      description: 14 nights on-site, 14 nights remote
+
+- title: Accepted Proposals
+  type: time_table
+  contents:
+    - title: SALT Long term monitoring with HRS (PI)
+      year: 2024
+      description: 4 semesters for 'Age and metalllcity dependency of orbital parameters of compact hierarchical triples'
+
+    - title: SALT Long term monitoring with HRS (PI)
+      year: 2022
+      description: 4 semesters for 'Accurate parameters of stars in Tight Triple Systems'
+
+    - title: SALT-HRS (Co-I)
+      year: 2024
+      description: 4 semesters for 'Detached Eclipsing Binaries as Benchmark Stars for PLATO mission'
+
+    - title: CHIRON spectroscopy with CTIO (PI)
+      year: 2023
+      description: 60 hrs for time-series spectroscopy of eclipsing binaries
+
+    - title: TESS Guest Investigator (Co-I)
+      year: 2020
+    - title: TESS Guest Investigator (Co-I)
+      year: 2021
+    - title: TESS Guest Investigator (Co-I)
+      year: 2022
+
+
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - NCAC Young researcher of the year
+
+ 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Eclipsing binary
+      items:
+        - Lightcurve Modelling
+        - Spectral disentangling
+    - title: Globular clusters
+      items:
+        - UV photometry
+        - Evolved populations
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Painting, Photography, Gaming
+    - <u>Sports:</u> Tennis, Football
+  
+- title: References
+  type: list
+  contents:
+    - Dr. hab. K.G. Hełminiak, Assitant Professor, NCAC Torun (xysiek@ncac.torun.pl)
+    - Dr. J. Southworth, Senior Lecturer, Keele University (taylorsouthworth@gmail.com)
