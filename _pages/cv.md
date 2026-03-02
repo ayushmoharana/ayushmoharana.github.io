@@ -1,11 +1,12 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: CV
 nav: true
-nav_order: 3
-cv_pdf: Ayush_Moharana_CV.pdf
-description: This is a brief form of my CV. Download the PDF for a detailed one.
+nav_order: 5
+cv_pdf: /assets/rendercv/rendercv_output/CV.pdf # you can also use external links here
+cv_format: rendercv # options: rendercv, jsonresume
+description: Ayush Moharana's CV
 toc:
   sidebar: left
 ---
