@@ -226,7 +226,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -247,7 +247,6 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - profiles.md
   - blog.md
 keep_files:
   - CNAME
