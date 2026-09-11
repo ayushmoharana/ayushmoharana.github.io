@@ -254,7 +254,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
+  - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -294,7 +294,7 @@ jekyll-minifier:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives-v2:
+jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
