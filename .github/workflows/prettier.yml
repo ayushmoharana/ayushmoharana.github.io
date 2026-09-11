@@ -1,48 +1,55 @@
-name: Prettier code formatter
+name: Check for broken links
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
   push:
     branches:
       - master
       - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "assets/**"
+      - "**.html"
+      - "**.js"
+      - "**.liquid"
+      - "**/*.md"
+      - "**.yml"
+      - "!.github/workflows/axe.yml"
+      - "!.github/workflows/deploy-docker-tag.yml"
+      - "!.github/workflows/deploy-image.yml"
+      - "!.github/workflows/docker-slim.yml"
+      - "!.github/workflows/lighthouse-badger.yml"
+      - "!.github/workflows/prettier.yml"
+      - "!lighthouse_results/**"
 
 jobs:
-  check:
-    # available images: https://github.com/actions/runner-images#available-images
+  link-checker:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v4
-      - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
-      - name: Prettier Check 🔎
-        id: prettier
-        run: npx prettier . --check
-      - name: Create diff 📝
-        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
-        if: ${{ failure() }}
-        run: |
-          npx prettier . --write
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
-          npm install -g diff2html-cli
-          diff2html -i file -s side -F diff.html -- diff.txt
-      - name: Upload html diff ⬆️
-        id: artifact-upload
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v4
+      - uses: actions/checkout@v5
+
+      - name: Link Checker 🔗
+        uses: lycheeverse/lychee-action@v2
         with:
-          name: HTML Diff
-          path: diff.html
-          retention-days: 7
-      - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          event-type: prettier-failed-on-pr
-          client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
+          # Change to false if you want the check to log errors but let the workflow pass
+          fail: false
+          # removed md files that include liquid tags
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --verbose --no-progress './**/*.md' './**/*.html'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
