@@ -18,6 +18,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+          bundler: '4'
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef # v0.17.0
