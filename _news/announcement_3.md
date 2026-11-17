@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We discovered a massive multiple (3 or more) system with a pulsating star.
-date: 2024-06-29 16:11:00-0400
+date: 2026-06-29 16:11:00-0400
 inline: false
 related_posts: false
 ---
