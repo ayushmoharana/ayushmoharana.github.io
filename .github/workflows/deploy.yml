@@ -72,7 +72,7 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler: '4'
-          bundler-cache: true
+          bundler-cache: false
       - name: Setup Python 🐍
         uses: actions/setup-python@v7
         with:
