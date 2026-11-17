@@ -308,7 +308,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["conferences", "spectroscopy","disentangling"] # these tags will be displayed on the front page of your blog
+display_tags: ["conferences", "spectroscopy","disentangling","observatory"] # these tags will be displayed on the front page of your blog
 display_categories: ["experiences","analysis"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
