@@ -95,6 +95,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           bundle install
+          bundle exec al-folio upgrade audit
+          bundle list | grep -E 'al_folio_core|al_cookie'
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
